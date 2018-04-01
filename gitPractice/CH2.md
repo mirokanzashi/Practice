@@ -21,19 +21,32 @@ add後面的.代表是所有檔案，也可以替換成單一的檔名
 
     git log
 
+5 commit 後發現有幾個檔案忘了加入進去，想要補內容進去時
 
+    git commit --amend 
 
 ### 練習範例
 
 1 建立一個文件example.txt，並隨意輸入一個內容
+
 2 使用git add將文件放上stage
+
 3 使用git stage查看狀態
+
 4 使用git commit送出report
+
 5 再使用git status查看狀態
+
 6 使用git log查看記錄
+
 7 修改example.txt後存檔
+
 8 使用git status查看狀態
+
 9 使用git commit指令後查看訊息
+
 10 使用git add指令後查看訊息
+
 11 使用git commit指令後查看訊息
+
 12 使用git log查看記錄
