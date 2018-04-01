@@ -1,0 +1,2 @@
+practice ch3 unstaged
+practice ch3 checkout
