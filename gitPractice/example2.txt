@@ -1,2 +1,3 @@
 practice ch3 unstaged
 practice ch3 checkout
+practice ch3 reset hard
