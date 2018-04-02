@@ -1,7 +1,7 @@
 # CH5 將本地repo推送到遠端repo
 
           
-本地repo ===(push)===>遠端repo
+本地repo ========(push)==========>遠端repo
 
 本地repo <===(pull/fetch/clone)===遠端repo
 
