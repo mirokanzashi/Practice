@@ -1,2 +1,2 @@
-# gitPractice
-Just a practicing history of github
+# Practice
+Just a practicing history
