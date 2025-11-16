@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "roles": [
+        "admin",
+        "editor"
+      ],
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "roles": [
+        "viewer"
+      ],
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "roles": [
+        "editor",
+        "viewer"
+      ],
+      "active": true
+    }
+  ],
+  "meta": {
+    "generated_at": "2025-11-16T12:34:56",
+    "count": 3
+  },
+  "settings": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "push": true
+    }
+  }
+}
