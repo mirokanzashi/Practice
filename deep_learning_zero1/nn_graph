@@ -1,0 +1,74 @@
+// NN Grapth
+digraph {
+	rankdir=LR size=10
+	{
+		rank=same
+		b1_1 [label="b1_1
+val=0.10000" fillcolor=lightyellow style=filled]
+		b1_2 [label="b1_2
+val=0.20000" fillcolor=lightyellow style=filled]
+		b1_3 [label="b1_3
+val=0.30000" fillcolor=lightyellow style=filled]
+		b2_1 [label="b2_1
+val=0.10000" fillcolor=lightyellow style=filled]
+		b2_2 [label="b2_2
+val=0.20000" fillcolor=lightyellow style=filled]
+		b3_1 [label="b3_1
+val=0.10000" fillcolor=lightyellow style=filled]
+		b3_2 [label="b3_2
+val=0.20000" fillcolor=lightyellow style=filled]
+	}
+	{
+		rank=same
+		x1 [label="x1
+val=1.00000" fillcolor=lightblue style=filled]
+		x2 [label="x2
+val=0.50000" fillcolor=lightblue style=filled]
+	}
+	{
+		rank=same
+		h11 [label="h1_1
+val=0.57444" fillcolor=lightgreen style=filled]
+		h12 [label="h1_2
+val=0.66819" fillcolor=lightgreen style=filled]
+		h13 [label="h1_3
+val=0.75026" fillcolor=lightgreen style=filled]
+	}
+	{
+		rank=same
+		h21 [label="h2_1
+val=0.62625" fillcolor=lightgreen style=filled]
+		h22 [label="h2_2
+val=0.77101" fillcolor=lightgreen style=filled]
+	}
+	{
+		rank=same
+		y1 [label="y1
+val=0.31683" fillcolor=lightpink style=filled]
+		y2 [label="y2
+val=0.69628" fillcolor=lightpink style=filled]
+	}
+	x1 -> h11 [label="W=0.1"]
+	x1 -> h12 [label="W=0.3"]
+	x1 -> h13 [label="W=0.5"]
+	x2 -> h11 [label="W=0.2"]
+	x2 -> h12 [label="W=0.4"]
+	x2 -> h13 [label="W=0.6"]
+	b1_1 -> h11 [label="b=0.1"]
+	b1_2 -> h12 [label="b=0.2"]
+	b1_3 -> h13 [label="b=0.3"]
+	h11 -> h21 [label="W=0.1"]
+	h11 -> h22 [label="W=0.4"]
+	h12 -> h21 [label="W=0.2"]
+	h12 -> h22 [label="W=0.5"]
+	h13 -> h21 [label="W=0.3"]
+	h13 -> h22 [label="W=0.6"]
+	b2_1 -> h21 [label="b=0.1"]
+	b2_2 -> h22 [label="b=0.2"]
+	h21 -> y1 [label="W=0.1"]
+	h21 -> y2 [label="W=0.3"]
+	h22 -> y1 [label="W=0.2"]
+	h22 -> y2 [label="W=0.4"]
+	b3_1 -> y1 [label="b=0.1"]
+	b3_2 -> y2 [label="b=0.2"]
+}
